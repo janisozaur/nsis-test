@@ -25,12 +25,11 @@ jobs:
         platform: [win32, x64, arm64]
     env:
       PLATFORM: ${{ matrix.platform }}
+      OPENRCT2_VERSION:       0.4.4
+      OPENRCT2_VERSION_EXTRA: master-9e4918c
     steps:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Build artifacts
         run: |
-          export OPENRCT2_VERSION=0.4.4
-          export OPENRCT2_VERSION_EXTRA=master-9e4918c
-          export PLATFORM=${{ matrix.platform }}
           scripts/build-installer -i
