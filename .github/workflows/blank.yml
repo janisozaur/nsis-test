@@ -35,3 +35,9 @@ jobs:
       - name: Build artifacts
         run: |
           scripts/build-installer -i
+      - name: Upload artifacts (CI)
+        uses: actions/upload-artifact@v3
+        with:
+          name: OpenRCT2-${{ runner.os }}-${{ matrix.platform }}
+          path: artifacts
+          if-no-files-found: error
