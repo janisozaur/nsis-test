@@ -27,8 +27,8 @@ jobs:
         platform: [win32, x64, arm64]
     env:
       PLATFORM: ${{ matrix.platform }}
-      OPENRCT2_VERSION:       0.4.4
-      OPENRCT2_VERSION_EXTRA: master-9e4918c
+      OPENRCT2_VERSION:       0.4.5
+      OPENRCT2_VERSION_EXTRA: master-76ca840
     steps:
       - name: Checkout
         uses: actions/checkout@v3
