@@ -178,8 +178,8 @@ Section "!OpenRCT2" Section1
     Call unix2dos
 
     ; Copy executable
-    File /oname=${OPENRCT2_EXE} ${BINARY_DIR}\%PLATFORM%\${OPENRCT2_EXE}
-    File /oname=${OPENRCT2_COM} ${BINARY_DIR}\%PLATFORM%\${OPENRCT2_COM}
+    File /oname=${OPENRCT2_EXE} ${BINARY_DIR}\$%PLATFORM%\${OPENRCT2_EXE}
+    File /oname=${OPENRCT2_COM} ${BINARY_DIR}\$%PLATFORM%\${OPENRCT2_COM}
 
     ; Create the Registry Entries
     WriteRegStr HKEY_LOCAL_MACHINE "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\OpenRCT2" "Comments" "Visit ${APPURLLINK}"
