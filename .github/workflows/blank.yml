@@ -38,6 +38,6 @@ jobs:
       - name: Upload artifacts (CI)
         uses: actions/upload-artifact@v4
         with:
-          name: OpenRCT2-${{ runner.os }}-${{ matrix.platform }}
+          name: OpenRCT2-${{ runner.os }}-${{ env.OPENRCT2_VERSION }}-${{ matrix.platform }}
           path: artifacts
           if-no-files-found: error
