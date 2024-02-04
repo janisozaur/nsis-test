@@ -31,12 +31,12 @@ jobs:
       OPENRCT2_VERSION_EXTRA: master-0e8d46e
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Build artifacts
         run: |
           scripts/build-installer -i
       - name: Upload artifacts (CI)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: OpenRCT2-${{ runner.os }}-${{ matrix.platform }}
           path: artifacts
