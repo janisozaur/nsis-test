@@ -19,36 +19,36 @@
             [
                 [
                     "bright_red",
-                    "bright_red",
-                    "black"
+                    "bright_pink",
+                    "yellow"
                 ]
             ],
             [
                 [
                     "light_blue",
-                    "light_blue",
-                    "black"
+                    "bright_pink",
+                    "yellow"
                 ]
             ],
             [
                 [
                     "yellow",
-                    "yellow",
-                    "black"
+                    "bright_pink",
+                    "yellow"
                 ]
             ],
             [
                 [
                     "bright_green",
-                    "bright_green",
-                    "black"
+                    "bright_pink",
+                    "yellow"
                 ]
             ],
             [
                 [
                     "light_orange",
-                    "light_orange",
-                    "black"
+                    "bright_pink",
+                    "yellow"
                 ]
             ]
         ],
@@ -92,7 +92,7 @@
     "strings": {
         "name": {
             "en-GB": "Oak Barrels",
-            "fr-FR": "Le Tonneau",
+            "fr-FR": "Tonneau",
             "de-DE": "Eichenfässer",
             "es-ES": "Viaje en el barril de roble",
             "it-IT": "Corsa dei tronchi",
@@ -109,11 +109,12 @@
             "eo-ZZ": "Kverkaj Bareloj",
             "ca-ES": "Barrils de fusta de roure",
             "fi-FI": "Tammitynnyrit",
-            "zh-CN": "橡木桶"
+            "zh-CN": "橡木桶",
+            "hu-HU": "Tölgyfahordók"
         },
         "description": {
             "en-GB": "Oak barrels that turn and splash around as they meander along the river rapids",
-            "fr-FR": "Des tonneaux serpentent le long d’un large cours d’eau, puis dévalent des rapides et des chutes d’eau spectaculaires",
+            "fr-FR": "Des tonneaux qui tournent et éclaboussent en serpentant dans des rapides",
             "de-DE": "Eichenfässer, die drehend und platschend durch die Stromschnellen gleiten",
             "es-ES": "Los barriles de roble van a la deriva por un ancho canal de agua, cayendo por cataratas y pasando por estremecedores rápidos.",
             "it-IT": "Tronchi di quercia si fanno strada lungo un largo canale d’acqua, per poi tuffarsi dalle cascate e seguire un eccitante percorso fra le rapide.",
@@ -129,7 +130,8 @@
             "eo-ZZ": "Kverkaj bareloj, kiuj turniĝas kaj plaŭdas ĉirkaŭe dum ili serpentumas laŭ la rapidfluo",
             "ca-ES": "Barrils de roure que es mouen per un riu que té alguns ràpids.",
             "fi-FI": "Tammitynnyrit, jotka kääntyilevät ja roiskuvat koskea laskiessa",
-            "zh-CN": "橡木桶在急流中蜿蜒前行，四处飞溅"
+            "zh-CN": "橡木桶在急流中蜿蜒前行，四处飞溅",
+            "hu-HU": "Tölgyfahordók, amelyek forognak és csobbannak, ahogy a folyó gyors sodrásában kanyarognak"
         },
         "capacity": {
             "en-GB": "8 passengers per boat",
@@ -149,7 +151,8 @@
             "eo-ZZ": "Po 8 pasaĝeroj por boato",
             "ca-ES": "8 passatgers per barril",
             "fi-FI": "8 matkustajaa per vene",
-            "zh-CN": "8位乘客/船"
+            "zh-CN": "8位乘客/船",
+            "hu-HU": "8 utas csónakonként"
         }
     }
 }

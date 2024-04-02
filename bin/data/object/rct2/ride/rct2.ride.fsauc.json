@@ -50,7 +50,8 @@
             "loadingPositions": [
                 0
             ]
-        }
+        },
+        "buildMenuPriority": 1
     },
     "images": [
         "$RCT2:OBJDATA/FSAUC.DAT[0..66]"
@@ -79,7 +80,7 @@
         },
         "description": {
             "en-GB": "Guests ride in saucer-shaped hovercraft vehicles that they freely control",
-            "fr-FR": "Aéroglisseurs auto-guidés",
+            "fr-FR": "Les visiteurs contrôlent des aéroglisseurs en forme de soucoupes volantes",
             "de-DE": "Die Gäste fahren in untertassenförmigen Luftkissenfahrzeugen, die sie selbst steuern",
             "es-ES": "Vehículos aerodeslizadores autopropulsados",
             "it-IT": "Veicoli hovercraft guidati dai visitatori",

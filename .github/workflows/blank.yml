@@ -27,7 +27,7 @@ jobs:
         platform: [win32, x64, arm64]
     env:
       PLATFORM: ${{ matrix.platform }}
-      OPENRCT2_VERSION:       0.4.9
+      OPENRCT2_VERSION:       0.4.10
       OPENRCT2_VERSION_EXTRA: 
     steps:
       - name: Checkout
@@ -38,6 +38,6 @@ jobs:
       - name: Upload artifacts (CI)
         uses: actions/upload-artifact@v4
         with:
-          name: OpenRCT2-${{ runner.os }}-${{ env.OPENRCT2_VERSION }}-${{ matrix.platform }}
+          name: OpenRCT2-{{ env.OPENRCT2_VERSION }}-${{ runner.os }}-$${{ matrix.platform }}
           path: artifacts
           if-no-files-found: error
